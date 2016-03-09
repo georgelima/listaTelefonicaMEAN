@@ -5,6 +5,7 @@ var mongoose = restful.mongoose;
 
 //Schema
 var contactShema = new mongoose.Schema({
+	serial: String,
 	nome: String,
 	telefone: String,
 	data: Date,

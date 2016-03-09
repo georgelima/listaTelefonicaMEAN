@@ -11,7 +11,11 @@
         <script type="text/javascript" src="js/angular-messages.min.js"></script>
         <script type="text/javascript" src="js/angular-locale_pt-br.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
-        <script type="text/javascript" src="controllers/listaTelefonicaCtrl.js"></script>
+        <script type="text/javascript" src="js/controllers/listaTelefonicaCtrl.js"></script>
+        <script type="text/javascript" src="js/services/contatosAPIService.js"></script>
+        <script type="text/javascript" src="js/services/serialGeneratorService.js"></script>
+        <script type="text/javascript" src="js/config/serialGeneratorConfig.js"></script>
+        <script type="text/javascript" src="js/value/configValue.js"></script>
     </head>
     <body ng-controller='listaTelefonicaCtrl'>
         <div class="content">
@@ -44,6 +48,7 @@
               <table class="contatos" id="tabelaContatos">
                   <tr>
                       <th></th>
+                      <th>Serial</th>
                       <th><a href="" ng-click="ordenarPor('nome')">Nome</a></th>
                       <th><a href="" ng-click="ordenarPor('telefone')">Telefone</a></th>
                       <th>Operadora</th>
@@ -52,6 +57,7 @@
                   <div id="linhastabela">
                     <tr class="linha" id="linhas" ng-class="{selecionado: contato.selecionado}" ng-repeat="contato in contatos | filter: criterioDeBusca | orderBy:criterioDeOrdenacao:direcaoDaOrdenacao">
                         <td><input name="box" value={{contato._id}} class="caixaSelecao" type='checkbox' ng-model="contato.selecionado" /></td>
+                        <td>{{contato.serial}}</td>
                         <td>{{contato.nome}}</td>
                         <td>{{contato.telefone}}</td>
                         <td>{{contato.operadora.nome}}</td>

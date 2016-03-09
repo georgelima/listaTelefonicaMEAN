@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 
 // MongoDB
-mongoose.connect('mongodb://127.0.0.1/apicontatos');
+mongoose.connect('mongodb://192.168.0.106/apicontatos');
 
 // Express
 var app = express();
@@ -24,5 +24,5 @@ app.use('/api', require('./routes/api'));
 
 // Start Server
 app.listen(3000, function() {
-  console.log('Rodando');
+  console.log('Rodando na porta 3000');
 });
