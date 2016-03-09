@@ -1,0 +1,16 @@
+{
+  "name": "resttel",
+  "version": "1.0.0",
+  "description": "API Rest Lista Telefonica",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "george lima",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.6",
+    "node-restful": "^0.2.5"
+  }
+}

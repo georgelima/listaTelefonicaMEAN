@@ -1,0 +1,45 @@
+2016-03-07T23:52:19.215-0300 [initandlisten] MongoDB starting : pid=20231 port=27017 dbpath=/data/db 64-bit host=george-NH4CU03
+2016-03-07T23:52:19.215-0300 [initandlisten] db version v2.6.10
+2016-03-07T23:52:19.215-0300 [initandlisten] git version: nogitversion
+2016-03-07T23:52:19.215-0300 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-03-07T23:52:19.215-0300 [initandlisten] build info: Linux lgw01-12 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 x86_64 BOOST_LIB_VERSION=1_58
+2016-03-07T23:52:19.215-0300 [initandlisten] allocator: tcmalloc
+2016-03-07T23:52:19.215-0300 [initandlisten] options: { net: { bindIp: "192.168.0.110" }, processManagement: { fork: true }, systemLog: { destination: "file", path: "./logs/logMongoDB.txt" } }
+2016-03-07T23:52:19.260-0300 [initandlisten] journal dir=/data/db/journal
+2016-03-07T23:52:19.260-0300 [initandlisten] recover : no journal files present, no recovery needed
+2016-03-07T23:52:20.371-0300 [initandlisten] waiting for connections on port 27017
+2016-03-07T23:52:28.388-0300 [initandlisten] connection accepted from 192.168.0.110:45386 #1 (1 connection now open)
+2016-03-07T23:53:20.203-0300 [clientcursormon] mem (MB) res:152 virt:1500
+2016-03-07T23:53:20.204-0300 [clientcursormon]  mapped (incl journal view):1280
+2016-03-07T23:53:20.204-0300 [clientcursormon]  connections:1
+2016-03-07T23:54:06.779-0300 [conn1] end connection 192.168.0.110:45386 (0 connections now open)
+2016-03-07T23:54:08.508-0300 [initandlisten] connection accepted from 192.168.0.110:45410 #2 (1 connection now open)
+2016-03-07T23:54:12.823-0300 [conn2] end connection 192.168.0.110:45410 (0 connections now open)
+2016-03-07T23:54:14.527-0300 [initandlisten] connection accepted from 192.168.0.110:45412 #3 (1 connection now open)
+2016-03-07T23:54:16.750-0300 [conn3] end connection 192.168.0.110:45412 (0 connections now open)
+2016-03-07T23:54:18.404-0300 [initandlisten] connection accepted from 192.168.0.110:45414 #4 (1 connection now open)
+2016-03-07T23:54:26.690-0300 [conn4] end connection 192.168.0.110:45414 (0 connections now open)
+2016-03-07T23:54:33.661-0300 [initandlisten] connection accepted from 192.168.0.110:45416 #5 (1 connection now open)
+2016-03-07T23:58:20.219-0300 [clientcursormon] mem (MB) res:136 virt:1500
+2016-03-07T23:58:20.219-0300 [clientcursormon]  mapped (incl journal view):1280
+2016-03-07T23:58:20.219-0300 [clientcursormon]  connections:1
+2016-03-08T00:02:52.100-0300 [conn5] end connection 192.168.0.110:45416 (0 connections now open)
+2016-03-08T00:03:20.235-0300 [clientcursormon] mem (MB) res:136 virt:1500
+2016-03-08T00:03:20.235-0300 [clientcursormon]  mapped (incl journal view):1280
+2016-03-08T00:03:20.235-0300 [clientcursormon]  connections:0
+2016-03-08T00:03:29.607-0300 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-03-08T00:03:29.607-0300 [signalProcessingThread] now exiting
+2016-03-08T00:03:29.607-0300 [signalProcessingThread] dbexit: 
+2016-03-08T00:03:29.607-0300 [signalProcessingThread] shutdown: going to close listening sockets...
+2016-03-08T00:03:29.607-0300 [signalProcessingThread] closing listening socket: 10
+2016-03-08T00:03:29.607-0300 [signalProcessingThread] shutdown: going to flush diaglog...
+2016-03-08T00:03:29.607-0300 [signalProcessingThread] shutdown: going to close sockets...
+2016-03-08T00:03:29.608-0300 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-03-08T00:03:29.608-0300 [signalProcessingThread] shutdown: lock for final commit...
+2016-03-08T00:03:29.608-0300 [signalProcessingThread] shutdown: final commit...
+2016-03-08T00:03:30.986-0300 [signalProcessingThread] shutdown: closing all files...
+2016-03-08T00:03:31.481-0300 [signalProcessingThread] closeAllFiles() finished
+2016-03-08T00:03:31.481-0300 [signalProcessingThread] journalCleanup...
+2016-03-08T00:03:32.533-0300 [signalProcessingThread] removeJournalFiles
+2016-03-08T00:03:34.084-0300 [signalProcessingThread] shutdown: removing fs lock...
+2016-03-08T00:03:34.085-0300 [signalProcessingThread] dbexit: really exiting now

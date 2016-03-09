@@ -1,0 +1,11 @@
+{
+  "name": "listatelefonicaangular",
+  "version": "0.0.1",
+  "description": "Lista Telefonica Mean Stack",
+  "main": "index.html",
+  "scripts": {
+    "start": "nodemon ./backend/server"
+  },
+  "author": "George Lima",
+  "license": "ISC"
+}
