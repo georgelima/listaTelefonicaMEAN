@@ -1,7 +1,7 @@
 {
-  "name": "resttel",
+  "name": "restg3",
   "version": "1.0.0",
-  "description": "API Rest Lista Telefonica",
+  "description": "API Rest G3",
   "scripts": {
     "start": "nodemon server.js"
   },
